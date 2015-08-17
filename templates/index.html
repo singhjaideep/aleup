@@ -1,0 +1,63 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='mystyle.css')}}">
+{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12">
+          <img src="../static/aleuplogo.jpg" class="img-responsive center-block" alt="Responsive image" />
+        </div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container">
+                    <div id="remote">
+                      <input class="typeahead" type="text" placeholder="Beers">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="row">
+          <div class="col-md-4"><p class="text-center">.col-md-4</p></div>
+          <div class="col-md-4"><p class="text-center">.col-md-4</p></div>
+          <div class="col-md-4"><p class="text-center">.col-md-4</p></div>
+        </div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="col-md-12"><p></p></div>
+        <div class="row">
+          <div class="col-md-6"><p class="text-center">.col-md-6</p></div>
+          <div class="col-md-6"><p class="text-center">.col-md-6</p></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+<script src="{{url_for('.static', filename='remote.js')}}"></script>
+{% endblock %}
