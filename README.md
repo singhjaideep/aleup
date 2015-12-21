@@ -1,2 +1,5 @@
 # aleup
-Created during Aug 14 Hack-o-rama
+#### Created during Aug 14 Weekend Hack-o-rama using following
+- flask
+- flask-bootstrap
+- twitter typeahead.js & bloodhound engine
