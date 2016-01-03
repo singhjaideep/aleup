@@ -17,9 +17,15 @@ v0.2:
 - Make script async
 - Use twitter streaming api
 - Integrate with flask server
-v0.3: Store in PostgreSQL
-v0.4: Build Dashboard
-v0.5: Host on Droplet
+
+v0.3:
+- Store in PostgreSQL
+
+v0.4:
+- Build Dashboard
+
+v0.5:
+- Host on Droplet
 
 Resources:
 - https://www.digitalocean.com/community/tutorials/how-to-use-the-dokku-one-click-digitalocean-image-to-deploy-a-python-flask-app
