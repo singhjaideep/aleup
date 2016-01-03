@@ -25,4 +25,3 @@ Resources:
 - https://www.digitalocean.com/community/tutorials/how-to-use-the-dokku-one-click-digitalocean-image-to-deploy-a-python-flask-app
 - https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
 - http://stackoverflow.com/questions/27115442/how-to-stream-twitter-mentions-with-tweepy
-- 
