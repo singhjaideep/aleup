@@ -28,6 +28,8 @@ v0.5:
 - Host on Droplet
 
 Resources:
+- https://gist.github.com/pthrasher/2829878
+- https://impythonist.wordpress.com/2014/11/30/quotebota-clever-twitter-bot-powered-by-python/
 - https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python/blob/master/redis/redis-pipe-image/twitter-to-redis.py
 - https://www.digitalocean.com/community/tutorials/how-to-use-the-dokku-one-click-digitalocean-image-to-deploy-a-python-flask-app
 - https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
