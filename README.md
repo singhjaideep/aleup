@@ -28,6 +28,7 @@ v0.5:
 - Host on Droplet
 
 Resources:
+- https://github.com/GoogleCloudPlatform/kubernetes-bigquery-python/blob/master/redis/redis-pipe-image/twitter-to-redis.py
 - https://www.digitalocean.com/community/tutorials/how-to-use-the-dokku-one-click-digitalocean-image-to-deploy-a-python-flask-app
 - https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
 - http://stackoverflow.com/questions/27115442/how-to-stream-twitter-mentions-with-tweepy
